@@ -10,11 +10,11 @@
     "versions": [
       {
         "version": "2.4.0.0",
-        "changelog": "Add Jellyfin 12 compatibility (targets 12.1.0 / net10.0). Requires Home Screen Sections v3.0.2.0 or later.",
-        "targetAbi": "12.1.0.0",
+        "changelog": "Add Jellyfin 12 compatibility (targets 12.0.0 / net10.0). Requires Home Screen Sections v3.0.2.0 or later.",
+        "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/DD00031/jellyfin-plugin-collection-sections/releases/download/v2.4.0.0/collectionsections_2.4.0.0.zip",
-        "checksum": "91808cfe235814ff4d8fb8d95cfa8001",
-        "timestamp": "2026-09-24T20:55:34Z"
+        "checksum": "289ccff0003dca711253a22e2127ed6b",
+        "timestamp": "2026-09-24T21:02:30Z"
       }
     ]
   }
