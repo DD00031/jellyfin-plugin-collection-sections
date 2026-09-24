@@ -14,7 +14,7 @@
 
 ## Fork Note - Jellyfin 12 Compatibility
 
-This is a fork of [IAmParadox27/jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections), updated to build against Jellyfin `12.1.0` (`net10.0`) since the upstream project has not yet released Jellyfin 12 support. See the [releases page](https://github.com/DD00031/jellyfin-plugin-collection-sections/releases) and `manifest.json` in this repo for installable builds.
+This is a fork of [IAmParadox27/jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections), updated to build against Jellyfin `12.0.0` (`net10.0`) since the upstream project has not yet released Jellyfin 12 support. See the [releases page](https://github.com/DD00031/jellyfin-plugin-collection-sections/releases) and `manifest.json` in this repo for installable builds.
 
 ## Development Update - 16th September 2026
 
@@ -36,7 +36,7 @@ When coupled with an automatic collection plugin this can create very dynamic se
 ## Installation
 
 ### Prerequisites
-- This build is based on Jellyfin Version `12.1.0`
+- This build is based on Jellyfin Version `12.0.0`
 - The following plugins are required to also be installed, please following their installation guides:
   - Home Screen Sections (https://github.com/IAmParadox27/jellyfin-plugin-home-sections) at least v3.0.2.0 (Jellyfin 12 compatible)
 
