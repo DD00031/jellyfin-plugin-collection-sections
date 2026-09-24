@@ -12,6 +12,10 @@
 	</a>
 </p>
 
+## Fork Note - Jellyfin 12 Compatibility
+
+This is a fork of [IAmParadox27/jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections), updated to build against Jellyfin `12.1.0` (`net10.0`) since the upstream project has not yet released Jellyfin 12 support. See the [releases page](https://github.com/DD00031/jellyfin-plugin-collection-sections/releases) and `manifest.json` in this repo for installable builds.
+
 ## Development Update - 16th September 2026
 
 Hey, just a quick update relating to Collection Sections. My original vision for the Home Screen Sections ecosystem was that developers would utilise the exposed functionality to add their own ideas for sections. This hasn't come fully to pass, instead HSS has grown considerably from its initial intent, and now houses sections that I could never have dreamed of existing when I first publicised the plugin. As a result, I think it makes the most sense that the functionality provided by this plugin gets moved into HSS, which I will be doing in a future update soon. 
@@ -32,12 +36,12 @@ When coupled with an automatic collection plugin this can create very dynamic se
 ## Installation
 
 ### Prerequisites
-- This plugin is based on Jellyfin Version `10.10.7`
+- This build is based on Jellyfin Version `12.1.0`
 - The following plugins are required to also be installed, please following their installation guides:
-  - Home Screen Sections (https://github.com/IAmParadox27/jellyfin-plugin-home-sections) at least v2.3.8.0
+  - Home Screen Sections (https://github.com/IAmParadox27/jellyfin-plugin-home-sections) at least v3.0.2.0 (Jellyfin 12 compatible)
 
 ### Installation
-1. Add `https://www.iamparadox.dev/jellyfin/plugins/manifest.json` to your plugin repositories.
+1. Add this fork's manifest URL to your plugin repositories: `https://raw.githubusercontent.com/DD00031/jellyfin-plugin-collection-sections/main/manifest.json`
 2. Install the prerequisite plugins by following the Home Screen Sections install guide.
 3. Install `Collection Sections` from the Catalogue.
 4. Restart Jellyfin.
